@@ -14,46 +14,6 @@ Certainly! Here is the corrected code with proper formatting, including the miss
 
 
 const originalQuizMap = new Map([
-    ["What is the primary chemical reaction that occurs during the discharge of a lead-acid battery?", "Reduction of lead sulfate"],
-    ["What distinguishes Sealed Lead-Acid (SLA) batteries from traditional lead-acid batteries?", "They are maintenance-free"],
-    ["What is the key advantage of lithium-ion batteries over other types of batteries?", "Higher energy density"],
-    ["What is the main function of the commutator in a DC machine?", "To reverse the current direction"],
-    ["In a DC motor, what happens when the armature rotates in the magnetic field?", "Torque is produced causing rotation"],
-    ["What is the main principle behind the operation of a three-phase induction motor?", "Electromagnetic induction"],
-    ["What is a common application of single-phase motors?", "Residential ceiling fans"],
-    ["Why is it important to connect electrical equipment to the grounding system?", "To prevent leakage current"],
-    ["What is the purpose of an earth fault current in an electrical system?", "To detect faulty insulation"],
-    ["What is the primary function of an ammeter?", "Measure current"],
-    ["Differentiate between direct and indirect methods of connecting measuring instruments.", "Direct methods measure directly, while indirect methods involve calculations based on other measurements."],
-    ["What does range extension refer to in measuring instruments?", "Expanding the range of measurable values"],
-    ["What is a significant advantage of digital measuring instruments over analog ones?", "Digital instruments provide faster and more accurate readings"],
-    ["Lead-acid batteries: What is the typical electrolyte used?", "Sulfuric acid"],
-    ["Sealed lead-acid (SLA) batteries: What is the purpose of the safety valve?", "Prevent overcharging"],
-    ["Lithium-ion batteries: What is the cathode material commonly used?", "Lithium cobalt oxide"],
-    ["Function and construction of DC machines: What is the role of the armature?", "Convert mechanical energy to electrical energy"],
-    ["DC motors: What is the purpose of the commutator?", "Reverse current direction"],
-    ["DC generators: In a DC generator, what is the function of the brushes?", "Maintain electrical contact"],
-    ["Three-phase induction motors: What is the advantage of a three-phase induction motor over a single-phase motor?", "Higher efficiency"],
-    ["Single-phase motors: What is the primary drawback of single-phase motors compared to three-phase motors?", "Limited applications"],
-    ["Leakage current and the earthing chain: How does earthing help in limiting leakage current?", "Provide a low-resistance path to ground"],
-    ["Earth fault current: What is the consequence of a high earth fault current in an electrical system?", "Risk of electrical fires"],
-    ["Function of measuring instruments: What is the basic principle behind the operation of a voltmeter?", "Measures voltage"],
-    ["Direct and indirect methods of connecting measuring instruments: Provide an example of a direct method of connecting a measuring instrument.", "Ammeter in series"],
-    ["Range extension of measuring instruments: How is the range of a multimeter extended for measuring higher voltages?", "By connecting a resistor in series"],
-    ["Digital measuring instruments: What is a significant disadvantage of digital measuring instruments?", "Slower response time"],
-    ["Lead-acid batteries: What are the environmental concerns associated with lead-acid batteries?", "Lead is a toxic heavy metal, and improper disposal can pose environmental hazards."],
-    ["Sealed lead-acid (SLA) batteries: How do AGM batteries differ from gel batteries?", "AGM uses a glass mat separator, while gel batteries use a gelled electrolyte, both being valve-regulated."],
-    ["Lithium-ion batteries: What are some of the emerging applications of lithium-ion battery technology?", "Electric vehicles, grid energy storage, and power tools due to high energy density and long lifespan."],
-    ["Factors influencing the capacity of lead-acid batteries:", "Quantity of active materials, Temperature, Number of plates, Size of plates (surface area), Rate of discharge"],
-    ["How can you test a lead-acid battery through an open-circuit voltage test?", "Disconnect one terminal, Connect voltmeter, Good battery: ≥ 12.6 V, Faulty battery: < 12 V"],
-    ["What is a load test for lead-acid batteries, and how is it conducted?", "Connect discharge tester, Adjust current to 3 times ampere-hour rating, Do not exceed 15 seconds, Good battery: ≥ 9.6 V, Faulty battery: < 9.6 V, Observe cell activity for weakening"],
-    ["Explain the structure of Sealed Lead-Acid (SLA) batteries.", "Rechargeable, Sealed construction, Valve-regulated (VRLA), Key components: Plates, Electrolyte, Separators, Case, Pressure relief valve"],
-    ["Describe the discharge process in Sealed Lead-Acid (SLA) batteries.", "Chemical reaction between lead plates and sulfuric acid, Lead sulfate forms on plates, Generates electricity"],
-    ["How does the charging process work in Sealed Lead-Acid (SLA) batteries?", "External voltage reverses the reaction, Regenerates lead and lead dioxide on plates, Recombines oxygen and hydrogen internally"],
-    ["List three common uses of Sealed Lead-Acid (SLA) batteries.", "Uninterruptible Power Supplies (UPS), Emergency Lighting Systems, Medical Equipment"],
-    ["What are the advantages of Sealed Lead-Acid (SLA) batteries over traditional lead-acid batteries?", "Maintenance-Free, Leak-Proof, Spill-Proof, Lower Self-Discharge Rate, Versatile"],
-    ["In lead-acid batteries, why is the quantity of active materials a factor influencing capacity?", "It determines the amount of material available for the chemical reactions that produce electrical energy."],
-    ["Why is the open-circuit voltage test performed on lead-acid batteries, and what does a low reading indicate?", "To check the battery's health, Low reading (< 12 V) indicates a faulty battery."]
     ["What is the purpose of a valve in valve-regulated lead-acid (VRLA) batteries?", "To control the flow of gases and recombine hydrogen with oxygen."],
     ["Explain the construction of VRLA cells and their resistance to vibration.", "Electrolyte is immobilized, surrounded by lead plates, and resistant to vibration."],
     ["What are the two main types of VRLA batteries mentioned in the text?", "Absorbent glass mat (AGM) batteries and Gel batteries."],
@@ -71,7 +31,7 @@ const originalQuizMap = new Map([
     ["What is the purpose of cleaning battery terminals during maintenance?", "To remove corrosion that may prevent the battery from starting."],
     ["How is the electrolyte level maintained in lead-acid batteries?", "Add distilled water if the electrolyte level is low."],
     ["What is the purpose of load testing a lead-acid battery?", "To check the health of the battery by measuring voltage under load."],
-    ["Why is it important to dispose of lead-acid batteries properly?", "Lead-acid batteries contain hazardous substances, and proper disposal is necessary for environmental safety."]
+    ["Why is it important to dispose of lead-acid batteries properly?", "Lead-acid batteries contain hazardous substances, and proper disposal is necessary for environmental safety."],
     ["What is the main function of DC machines?", "DC machines convert mechanical energy into electrical energy or vice versa."],
     ["Explain the construction of DC machines.", "DC machines consist of a stator, rotor, commutator, and brushes. The stator produces a magnetic field, the rotor has conductors carrying current, the commutator reverses the current direction, and brushes maintain electrical contact."],
     ["What is the purpose of the commutator in a DC machine?", "The commutator reverses the current direction in the rotor windings, ensuring continuous rotation in DC motors and the generation of direct current in DC generators."],
@@ -95,7 +55,7 @@ const originalQuizMap = new Map([
     ["How does a DC generator produce direct current?", "A DC generator produces direct current by utilizing a commutator to reverse the direction of the generated current in the armature windings, resulting in a unidirectional output."],
     ["What is the role of the armature in a DC generator?", "The armature in a DC generator consists of conductors that cut through magnetic lines of flux, inducing a voltage as the armature rotates, leading to the generation of direct current."],
     ["What are the types of DC generators based on their field winding connections?", "DC generators can be classified as shunt-wound, series-wound, or compound-wound based on the connection of their field windings."],
-    ["Explain the working principle of a shunt-wound DC generator.", "In a shunt-wound DC generator, the field winding is connected in parallel (shunt) with the armature winding. It produces a nearly constant voltage output."]  
+    ["Explain the working principle of a shunt-wound DC generator.", "In a shunt-wound DC generator, the field winding is connected in parallel (shunt) with the armature winding. It produces a nearly constant voltage output."],
     ["Explain the working principle of three-phase induction motors.", "Three-phase induction motors operate based on the induction principle, where a rotating magnetic field in the stator induces a current in the rotor, producing motion."],
     ["What are the advantages of three-phase induction motors?", "Advantages include simplicity, reliability, and high efficiency. They are also self-starting and have a higher power factor."],
     ["Differentiate between squirrel cage and wound rotor three-phase induction motors.", "Squirrel cage motors have shorted rotor conductors, providing simplicity and ruggedness. Wound rotor motors have externally connected rotor windings, allowing external resistance control for starting."],
@@ -130,6 +90,7 @@ const originalQuizMap = new Map([
     ["What is the significance of digital measuring instruments in modern electronics?", "Digital measuring instruments provide accurate and fast measurements, offer digital readouts for easy interpretation, and often include advanced features like data storage and connectivity."],
     ["How do digital measuring instruments differ from analog ones in terms of readings?", "Digital measuring instruments provide numerical readings on a digital display, offering precise and easy-to-read results, whereas analog instruments use a pointer on a scale for visual interpretation."]
 ]);
+
 
 
 let quizMap = shuffleArray([...originalQuizMap]); // Randomize question order
