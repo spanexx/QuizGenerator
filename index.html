@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Quiz App</h1>
+  <div id="quiz-container">
+    <div id="question"></div>
+    <input type="text" id="answer-input" placeholder="Your answer">
+    <button onclick="checkAnswer()" id="submit-button">Submit Answer</button>
+    <button onclick="skipQuestion()" id="skip-button">Skip Question</button>
+    <button onclick="startNewQuiz()" id="new-quiz-button">New Quiz</button>
+    <div id="result"></div>
+    <div id="progress-bar-container">
+      <div id="progress-bar-inner"></div>
+    </div>
+  </div>
+  </body>
+  <script src="scripted.js"></script>
+</html>
