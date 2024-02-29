@@ -11,10 +11,6 @@ function shuffleArray(array) {
 }
 
 const originalQuizMap = new Map([
-    ["What is the capital of France?", "Paris"],
-    ["What is the largest mammal?", "Blue whale"],
-    ["How many continents are there?", "7"],
-    // Add more questions and answers as needed
     ["What is the primary chemical reaction that occurs during the discharge of a lead-acid battery?", "Reduction of lead sulfate"],
     ["What distinguishes Sealed Lead-Acid (SLA) batteries from traditional lead-acid batteries?", "They are maintenance-free"],
     ["What is the key advantage of lithium-ion batteries over other types of batteries?", "Higher energy density"],
@@ -54,7 +50,7 @@ const originalQuizMap = new Map([
     ["List three common uses of Sealed Lead-Acid (SLA) batteries.", "Uninterruptible Power Supplies (UPS), Emergency Lighting Systems, Medical Equipment"],
     ["What are the advantages of Sealed Lead-Acid (SLA) batteries over traditional lead-acid batteries?", "Maintenance-Free, Leak-Proof, Spill-Proof, Lower Self-Discharge Rate, Versatile"],
     ["In lead-acid batteries, why is the quantity of active materials a factor influencing capacity?", "It determines the amount of material available for the chemical reactions that produce electrical energy."],
-    ["Why is the open-circuit voltage test performed on lead-acid batteries, and what does a low reading indicate?", "To check the battery's health, Low reading (< 12 V) indicates a faulty battery."]
+    ["Why is the open-circuit voltage test performed on lead-acid batteries, and what does a low reading indicate?", "To check the battery's health, Low reading (< 12 V) indicates a faulty battery."],
     ["What is the purpose of a valve in valve-regulated lead-acid (VRLA) batteries?", "To control the flow of gases and recombine hydrogen with oxygen."],
     ["Explain the construction of VRLA cells and their resistance to vibration.", "Electrolyte is immobilized, surrounded by lead plates, and resistant to vibration."],
     ["What are the two main types of VRLA batteries mentioned in the text?", "Absorbent glass mat (AGM) batteries and Gel batteries."],
