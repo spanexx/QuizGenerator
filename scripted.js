@@ -237,7 +237,7 @@ const originalQuizMap = new Map([
     ["What are the disadvantages of VRLA batteries mentioned?", "Disadvantages include a higher initial cost compared to flooded lead-acid batteries and a reduced tolerance to high temperatures, which can affect their performance."],
     ["What are the advantages of Absorbent Glass Mat (AGM) batteries?", "AGM batteries offer advantages such as a long lifespan, resistance to vibration, high electrical demand handling, greater mounting flexibility, no spillage of electrolyte, and reasonably maintenance-free operation."],
     ["What are the listed disadvantages of AGM batteries?", "Disadvantages include a higher cost, reduced capacity over time, and sensitivity to overcharging, which can affect the overall performance and lifespan of AGM batteries."],
-    ["What safety precautions are mentioned for handling lead-acid batteries?", "Safety precautions include wearing eye and acid-resistant gloves, working in a well-ventilated area, avoiding smoking or eating near batteries, not touching terminals with bare hands, avoiding dropping batteries, washing immediately if in contact with battery acid, and proper disposal of batteries."],
+    ["What safety precautions are mentioned for handling lead-acid batteries?", "Safety precautions include wearing eye and acid-resistant gloves, working in a well-ventilated area, avoiding smoking or eating near batteries, not touching terminals with bare hands, avoiding dropping batteries, washing immediately if in contact with battery acid, and proper disposal of batteries."]
 ]);
 
 
