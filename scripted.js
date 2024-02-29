@@ -99,7 +99,7 @@ function displayNextQuestion() {
  // Add countdown timer for each question (e.g., 15 seconds)
 let timeLeft = 60;
 timer = setInterval(() => {
-  document.getElementById('progress-bar-inner').style.width = (timeLeft / 15) * 100 + '%';
+  document.getElementById('progress-bar-inner').style.width = (timeLeft / 60) * 100 + '%';
 
   if (timeLeft <= 15) {
     document.getElementById('progress-bar-inner').style.backgroundColor = '#f44336';  // Change color to red
