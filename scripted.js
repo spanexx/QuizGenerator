@@ -42,6 +42,27 @@ const originalQuizMap = new Map([
   ["Direct and indirect methods of connecting measuring instruments: Provide an example of a direct method of connecting a measuring instrument.", "Ammeter in series"],
   ["Range extension of measuring instruments: How is the range of a multimeter extended for measuring higher voltages?", "By connecting a resistor in series"],
   ["Digital measuring instruments: What is a significant disadvantage of digital measuring instruments?", "Slower response time"],
+  ["Lead-acid batteries: What is the typical voltage per cell for a fully charged lead-acid battery?", "2.1 volts"],
+  ["Sealed lead-acid (SLA) batteries: What is the common application of SLA batteries in consumer electronics?", "Uninterruptible Power Supply (UPS)"],
+  ["Lithium-ion batteries: What is the main safety concern associated with lithium-ion batteries?", "Risk of thermal runaway"],
+  ["Function and construction of DC machines: What is the purpose of the field winding in a DC machine?", "Creates the magnetic field"],
+  ["DC motors: What type of DC motor is commonly used in electric vehicles?", "Brushless DC motor"],
+  ["DC generators: What is the function of the armature in a DC generator?", "Generates electrical power"],
+  ["Three-phase induction motors: How does a three-phase induction motor start?", "Self-starting"],
+  ["Single-phase motors: What is the starting mechanism used in single-phase induction motors?", "Capacitor start"],
+  ["Leakage current and the earthing chain: What is the role of the grounding electrode in the earthing system?", "Provides connection to the ground"],
+  ["Earth fault current: How is the magnitude of earth fault current determined?", "By the impedance of the fault path to ground"],
+  ["Function of measuring instruments: What is the basic principle behind the operation of an ohmmeter?", "Measures resistance"],
+  ["Direct and indirect methods of connecting measuring instruments: Provide an example of an indirect method of measuring current.", "Using a shunt resistor"],
+  ["Range extension of measuring instruments: How is the range of an ammeter extended for measuring higher currents?", "By using a current transformer"],
+  ["Digital measuring instruments: What is a limitation of digital oscilloscopes compared to analog oscilloscopes?", "Limited bandwidth"],
+  ["Lead-acid batteries: What is the self-discharge rate of lead-acid batteries per month?", "2-3%"],
+  ["Sealed lead-acid (SLA) batteries: What is the common application of SLA batteries in automobiles?", "Powering the vehicle's starting motor"],
+  ["Lithium-ion batteries: What is the typical energy density of lithium-ion batteries in watt-hours per kilogram (Wh/kg)?", "150-200 Wh/kg"],
+  ["Function and construction of DC machines: What is the role of the commutator in a DC machine?", "Converts AC to DC"],
+  ["DC motors: What is the primary factor influencing the speed of a DC motor?", "Applied voltage"],
+  ["DC generators: What is the purpose of the brushes in a DC generator?", "Maintains electrical contact with the rotating coil"],
+
 ]);
 
 
