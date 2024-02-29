@@ -10,9 +10,6 @@ function shuffleArray(array) {
   return array;
 }
 
-Certainly! Here is the corrected code with proper formatting, including the missing comma in the last entry:
-
-
 const originalQuizMap = new Map([
     ["What is the purpose of a valve in valve-regulated lead-acid (VRLA) batteries?", "To control the flow of gases and recombine hydrogen with oxygen."],
     ["Explain the construction of VRLA cells and their resistance to vibration.", "Electrolyte is immobilized, surrounded by lead plates, and resistant to vibration."],
